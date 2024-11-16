@@ -1,0 +1,186 @@
+#bar {
+    height: 65px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #141D2C;
+    float: inline-end;
+}
+#kllogo {
+    height: 62px;
+    width: 21%;
+    display: flex;
+    /* border: 2px solid white; */
+}
+#saclogo {
+    height: 76px;
+    width: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#head {
+    height: 100px;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    /* border: 2px solid white; */
+}
+#login {
+    height: 100px;
+    width: 15%;
+    display: inline-block;
+}
+#register {
+    height: 100px;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+#registerinner:hover {
+    background-color: #000;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#logoinner {
+    width: 100px;
+    height: 35px;
+    background-color: greenyellow;
+    margin-left: 80px;
+    padding : 10px auto;
+    border-radius: 10px;
+    text-align: center;
+    align-items: baseline;
+}
+#registerinner {
+    width: 100px;
+    height: 35px;
+    margin-left: 40px;
+    padding : 10px auto;
+    border-radius: 10px;
+    text-align: center;
+    align-items: baseline;
+}
+h1{
+    color: rgb(243, 32, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+h2{
+    color: red;
+}
+#sidebar {
+    border: solid;
+    border-color: #fff;
+    height: 800px;
+    width: 15%;
+    background-color: #141D2C;
+    display: inline-block;
+    position: flexible;
+}
+#logo{
+width: 12%;
+height: 150px;
+display: flex;
+}
+#sb {
+    border: solid;
+    border-color: #fff;
+    height: 30px;
+    /* width: 100%; */
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    transition-duration: 1s;
+}
+#sb:hover {
+    background-color: #398db1;
+    border: 1px solid #398db1;
+    border-radius: 30px;
+    box-shadow: 30px #398db1;
+}
+#displayrow{
+    height: 400px;
+    width: 83%;
+    display: inline-flex;
+    /* position: static; */
+    /* border: 5px solid red; */
+    float: right;
+    /* display: flex; */
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#displaydiv{
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    border-radius: 20px;
+}
+#displaydiv img{
+    height: 350px;
+    width: 600px;
+    border-radius: 20px;
+}
+@media (max-width:900px){
+    #sidebar{
+        width: 100%;
+    }
+}
+#navbar{
+    height:50px;
+    width: 99%;
+    background-color: #58B9EA;
+    border-radius: 25px;
+    display: flex;
+    align-content: center;
+    position: fixed;
+}
+#nav1{
+    border: #000;
+    color:white;
+    background-color: #8860D0;
+    border-radius: 25px;
+    font-weight: 900;
+    font-size: x-large;
+    align-self: flex-end;
+    width: 8%;
+    align-content: center;
+    margin-bottom: 11px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+#nav2{
+    color: #8860D0;
+    font-weight: 900;
+    font-size: larger;
+    align-self: flex-end;
+    width: 92%;
+}
+#displaydiv ul{
+    display: flex;
+}
+.sidebar-item {
+    height: 30px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    transition-duration: 1s;
+}
+.sidebar-item:hover {
+    background-color: #398db1;
+    border: 1px solid #398db1;
+    border-radius: 30px;
+    box-shadow: 30px #398db1;
+}
